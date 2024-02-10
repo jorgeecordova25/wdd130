@@ -5,6 +5,8 @@ Fonts are separated by a & */
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #396E94   ;
@@ -27,12 +29,22 @@ Fonts are separated by a & */
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
+h2{
+    margin:0;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Protest+Revolution" Arial, Helvetica, sans-serif;
+}
+
 #content{
     background-color: white;
     margin: 0 auto;
     max-width: 1600px;
 }
 nav a{
+    font-size: 200%;
 text-align: center;
 
 }
@@ -49,7 +61,12 @@ main section{text-align: center;
 }
         
 body{
+    font-family: "Protest Revolution", Arial, Helvetica, sans-serif;
     background-color: var(--secondary-color);
+    font-size: 22px;
+    
+    margin:0;
+    padding:0;
 }
 header {
     background-color: var(--secondary-color);
@@ -71,6 +88,7 @@ nav a:hover {
 
 .msg {
     background-color: blueviolet;
+    border: 10px solid black;
 }
 
 footer {
@@ -85,18 +103,21 @@ nav a:hover{
 }
 .home-title{
     color: black;
+    margin-top: 10px;
 }
 h4{
     color: black;
 }
 .book, .join{
     color: black;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
     color: black;
 }
 .msg h2{
     color: black;
+
 }
 .msg p{
     color: black;
@@ -131,3 +152,68 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+
+nav a{
+    padding: 35px;
+    margin-top: 50px;
+
+}
+
+.book, .join{
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.icon{
+    padding-top: 10px;
+    margin-top: 50px;
+
+}
+.msg{
+    padding: 35px;
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+.msg p{
+    padding-bottom: 15px;
+    margin-top: 50px;
+
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 50px;
+
+}
+footer .social img{
+    padding-top: 15px;
+    margin-top: 50px;
+
+}   
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+.hero-img{
+width: 100%;
+}
+.herobox{
+text-align: center;
+}
+.booknow{
+    text-decoration: none;
+    color:black;
+    background:orange;
+    padding:10px;
+    border:5px solid brown;
+
+}
+.card-img{
+    border:5px solid brown;
+}
