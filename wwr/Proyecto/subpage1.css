@@ -114,6 +114,13 @@ h1, h2, h3, h4, h5, h6 {
 nav a {
     font-size: 200%;
     text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 35px;
+
+
+
+
 }
 
 .hero-msg h1, #hero-msg h4 {
@@ -149,6 +156,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    
     
 }
 
